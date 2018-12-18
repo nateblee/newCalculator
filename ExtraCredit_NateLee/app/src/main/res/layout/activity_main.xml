@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+
+    <Button
+        android:id="@+id/calculateGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="418dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Calculate Grade" />
+
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:hint="Name"
+        android:inputType="text" />
+
+
+    <EditText
+        android:id="@+id/Midterm2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="173dp"
+        android:hint="Midterm2"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Midterm1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="129dp"
+        android:hint="Midterm1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Homework"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="219dp"
+        android:hint="Homework"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/Final"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Homework"
+        android:layout_centerHorizontal="true"
+        android:hint="Final"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/gOutput"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/Final"
+        android:layout_marginTop="-2dp"
+        android:textSize="40dp"
+        tools:text="Grade" />
+
+    <TextView
+        android:id="@+id/nOutput"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/gOutput"
+        android:layout_marginTop="0dp"
+        android:textSize="40dp"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/lGrade"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/Final"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:textSize="40dp"
+        tools:text="Letter" />
+
+
+</RelativeLayout>
